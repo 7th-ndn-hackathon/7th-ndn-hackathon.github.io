@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed-a22882427ca6e03081271325bf1294e8cd2ee4c447f635000e4f4a0f694bfe55.png">
     <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed-933602014f87c50876665303015b7fed8f9dbe32ab7b7b62ebe888e5497dfd43.png">
 
-    
+
   </head>
   <body>
     <header id="header">
@@ -53,54 +53,54 @@
       <ul class="nav navbar-nav">
 
 
-  
-  
+
+
           <li class="">
             <a href="/">Home</a>
           </li>
-  
 
-  
-  
+
+
+
           <li class="">
             <a href="/committees.html">Committees</a>
           </li>
-  
 
-  
-  
+
+
+
           <li class="">
             <a href="/terms.html">Terms</a>
           </li>
-  
 
-  
-  
+
+
+
           <li class="">
             <a href="/program.html">Program</a>
           </li>
-  
 
-  
-  
+
+
+
           <li class="">
             <a href="/hacks.html"><b>HACKS</b></a>
           </li>
-  
 
-  
-  
+
+
+
           <li class="">
             <a href="/photos.html"><b>PHOTOS</b></a>
           </li>
-  
 
-  
-  
+
+
+
           <li class="">
             <a href="/judging.html">Judging</a>
           </li>
-  
+
 
         </li>
       </ul>
@@ -128,15 +128,15 @@
 <ul id="deadlines" class="nav nav-list">
 
   <li><p>Submission deadline:
-  
+
   <br/><b style="margin-left: 20px">Oct 17, 2018</b>
-  
+
   </p></li>
 
   <li><p>Acceptance notification:
-  
+
   <br/><b style="margin-left: 20px">Oct 18, 2018</b>
-  
+
   </p></li>
 
 </ul>
@@ -151,7 +151,7 @@
  </header>
 
 <section>
-  
+
 <ul id="markdown-toc">
   <li><a href="#1-certificate-support-in-esp8266ndn-library" id="markdown-toc-1-certificate-support-in-esp8266ndn-library">1. Certificate Support in esp8266ndn Library</a></li>
   <li><a href="#2-tiny-forwarder-with-esp8266ndn-library" id="markdown-toc-2-tiny-forwarder-with-esp8266ndn-library">2. Tiny Forwarder with esp8266ndn Library</a></li>
@@ -164,7 +164,7 @@
   <li><a href="#9-self-learning-forwarding-strategy-nfd-implementation-and-testing" id="markdown-toc-9-self-learning-forwarding-strategy-nfd-implementation-and-testing">9. Self-learning Forwarding Strategy: NFD Implementation and Testing</a></li>
   <li><a href="#10-ndn-sign-on-protocol-implementation-over-ble" id="markdown-toc-10-ndn-sign-on-protocol-implementation-over-ble">10. NDN sign-on protocol implementation over BLE</a></li>
   <li><a href="#11-a-use-case-example-app-using-ndn-iot-package" id="markdown-toc-11-a-use-case-example-app-using-ndn-iot-package">11. A use-case example APP using NDN-IoT package</a></li>
-  <li><a href="#12-why-fractalide" id="markdown-toc-12-why-fractalide">12. Why Fractalide</a></li>
+  <li><a href="#12-why-fractalide" id="markdown-toc-12-why-fractalide">12. Fractalide - An NDN Browser</a></li>
   <li><a href="#13-development-of-yang-data-model-for-nfd-mgmt-protocol" id="markdown-toc-13-development-of-yang-data-model-for-nfd-mgmt-protocol">13. Development of Yang Data Model for NFD Mgmt. Protocol</a></li>
   <li><a href="#14-mini-ndn-documentation" id="markdown-toc-14-mini-ndn-documentation">14. Mini-NDN documentation</a></li>
   <li><a href="#15-3d-visualization-of-ndn-traffic" id="markdown-toc-15-3d-visualization-of-ndn-traffic">15. 3D Visualization of NDN Traffic</a></li>
@@ -626,7 +626,7 @@ This is a one-way mirroring at this stage: the secondary instances do not allow 
   <li>The Controller App on phone and the Device App on nRF85240 boards</li>
 </ul>
 
-<h2 id="12-why-fractalide">12. Why Fractalide</h2>
+<h2 id="12-why-fractalide">12. Fractalide - An NDN Browser</h2>
 
 <p>Project Lead: Stewart Mackenzie</p>
 
@@ -644,17 +644,18 @@ This is a one-way mirroring at this stage: the secondary instances do not allow 
 
 <p><strong>Briefly describe the tasks</strong></p>
 <ul>
-  <li>either: create a new NDN in fractalide or use racket FFI and embed an existing NDN library into fractalide node</li>
+  <li>Fork this repository https://github.com/fractalide/rkt-ndn</li>
+  <li>Build a racket language binding to Named Data Networking library</li>
 </ul>
 
 <p><strong>Any specific tools or language</strong></p>
 <ul>
-  <li>Racket, Nix</li>
+  <li>Racket, Racket FFI</li>
 </ul>
 
 <p><strong>Expected outcomThe goal would be to create a simple fractalide application that utilized NDNes</strong></p>
 <ul>
-  <li>The goal would be to create a simple fractalide application that utilized NDN</li>
+  <li>We’ll have a functional library that allows racket users to build on Named Data Networking</li>
 </ul>
 
 <h2 id="13-development-of-yang-data-model-for-nfd-mgmt-protocol">13. Development of Yang Data Model for NFD Mgmt. Protocol</h2>
@@ -946,7 +947,7 @@ on the new boards</li>
         </div>
 
         <aside id="sidebar" class="col-xs-8 col-sm-5 col-md-4 col-lg-3">
-          
+
 <section id="sidebar-twitter" class="well hidden-print">
  <h3><i class="fa fa-twitter"></i>&nbsp;Tweets</h3>
  <a href="https://twitter.com/NamedData"
